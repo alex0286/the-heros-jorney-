@@ -659,6 +659,9 @@ let pr1 = 0
 let up_dr = false
 let monster: Sprite = null
 let player_sprite: Sprite = null
+game.splash("welcome to the hero's journey ")
+game.splash("your mission is to survive as long as u can ")
+game.splash("good luck hero")
 tiles.setCurrentTilemap(tilemap`level1`)
 player_sprite = sprites.create(img`
     . . . . . . f f f f . . . . . . 
